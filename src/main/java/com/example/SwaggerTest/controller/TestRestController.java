@@ -14,6 +14,8 @@ import java.util.List;
 @RequestMapping("/product")
 public class TestRestController {
 
+//    Здесь смотреть параметры
+//    http://localhost:8080/swagger-ui.html
 
     @ApiOperation("Метод метод возвращает все значения")
     @RequestMapping(method = RequestMethod.GET, value = "/items")
